@@ -1,0 +1,31 @@
+.myStyle {
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+    margin: 4px 0px;
+    padding: 3px 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.task_card {
+    width: 100%;
+    height: auto;
+    padding: 20px 10px;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+.task_card:hover {
+    box-shadow: 0px 0px 5px #eee;
+}
+.task_text {
+    flex: 1;
+}
+.task_text, .date {
+    font-size: 18px;
+}
+.btn-success, .btn-danger {
+    margin: 10px;
+}
+
+
